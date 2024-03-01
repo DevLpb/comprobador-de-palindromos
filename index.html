@@ -9,11 +9,15 @@
     <div class="container">
         <h1>¡Averigua si se trata de un palíndromo!</h1>
         <div id="main-div">
-<h2>Ingresa una palabra o frase.</h2>
-<input type="text">
+<label for="text-input">Ingresa una palabra o frase</label>
+<input type="text" id="text-input">
+<button id="check-btn">Comprobar</button>
+<div id="result" class="hidden">
+</div>
         </div>
         <div id="secondary-div">
-            <h3>Un <strong>palíndromo</strong> es una palabra o frase que se lee igual en un sentido que en otro.</h3>
+            <p>Un <strong>palíndromo</strong> es una palabra o frase que se lee igual en un sentido que en otro. Ignorando signos de puntuación, mayúsculas o espacios.
+            </p>
         </div>
     </div>
     <script src="app.js"></script>
